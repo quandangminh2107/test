@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .login {
+        text-align: center;
+        display: inline-block;
+        position: relative;
+        border:solid white;
+        border-radius: 5%;
+        padding: 10px 10px 10px 10px;
+        box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);;
+    }
+
+    #typemail {
+        height: 30px;
+        padding-left: 10px;
+    }
+
+    #typepass {
+        height: 30px;
+        padding-left: 10px;
+    }
+
+    #dangnhap {
+        width: 100%;
+        background-color: dodgerblue;
+        color: white;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    #create {
+        background-color: yellowgreen;
+        color: white;
+        padding: 8px 8px 8px 8px;
+    }
+
+    a {
+        color:dodgerblue;
+        text-decoration:none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+</style>
+<body>
+    <div class="login">
+        <input type="text" id='typemail' placeholder="Email hoặc số điện thoại"><br>
+        <input type="text" id='typepass' placeholder="Mật khẩu"><br>
+        <input type="button" id="dangnhap" value="Đăng nhập">
+        <a href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login" target="_blank"><p>Quên mật khẩu</p></a>
+        <hr><br>
+        <input type="button" id='create' value="Tạo tài khoản mới">
+    </div>
+</body>
+</html>
